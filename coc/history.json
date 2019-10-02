@@ -1,0 +1,10 @@
+{
+  "extensions": {
+    "%2FUsers%2Fcarolinesandsbraten%2F": {
+      "config%2Fnvim": [
+        "CoC:qc",
+        ":q"
+      ]
+    }
+  }
+}
