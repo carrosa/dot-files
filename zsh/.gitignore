@@ -1,1 +1,6 @@
-.zprezto
+.zprezto*
+.zcompdump*
+.zlog*
+.zprofile
+.zshenv
+.zhistory
