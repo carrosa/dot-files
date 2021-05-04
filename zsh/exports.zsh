@@ -1,4 +1,11 @@
 export EDITOR='nvim'
 export VISUAL='nvim'
 export GOPATH=~/go
-
+export ANDROID_HOME=~/Library/Android/sdk
+export ANDROID_SDK_ROOT=~/Library/Android/sdk
+export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
+export PATH=$PATH:$HOME/Library/Android/Sdk/emulator
+export PATH=$PATH:$HOME/Library/Android/Sdk/tools
+export PATH=$PATH:$HOME/Library/Android/Sdk/tools/bin
+export PATH=$PATH:$HOME/Library/Android/Sdk/platform-tools
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`

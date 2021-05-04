@@ -1,6 +1,6 @@
 scriptencoding utf-8
 source ~/.config/nvim/plugins.vim
-
+source ~/.config/nvim/syntax/simula.vim
 
 " ============================================================================ "
 " ===                           EDITING OPTIONS                            === "

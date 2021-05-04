@@ -8,14 +8,21 @@ call plug#begin('~/.config/nvim/plugged')
 " Trailing whitespace highlighting & automatic fixing
 " Plug 'ntpeters/vim-better-whitespcae'
 
+
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Toml syntax
+Plug 'cespare/vim-toml'
 
 " Denite - Fuzzy finding, buffer management
 Plug 'Shougo/denite.nvim'
 
 " Typescript syntax highlighting
 Plug 'HerringtonDarkholme/yats.vim'
+
+" Vim comments (gcc for single comment, gc in visual mode)
+Plug 'tpope/vim-commentary'
 
 " ReactJS JSX syntax hightlighting
 Plug 'mxw/vim-jsx'
@@ -52,5 +59,8 @@ Plug 'lifepillar/pgsql.vim'
 
 " Docker
 Plug 'ekalinin/Dockerfile.vim'
+
+" Fuzzy finder
+Plug 'wincent/Command-T'
 
 call plug#end()

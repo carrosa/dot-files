@@ -26,7 +26,6 @@ prezto:
 	@printf '%s\n' "40" '' | tr ' ' - && echo "INSTALLING PREZTO"
 	zsh && git clone --recursive https://github.com/sorin-ionescu/prezto.git "$(ZDOTDIR)/.zprezto"
 	setopt EXTENDED_GLOB
-	# Might get an error here? 
 	for rcfile in "$(ZDOTDIR)"/.zprezto/runcoms/^README.md(.N); do
 	  ln -s "$rcfile" "$(ZDOTDIR)/.${rcfile:t}"
 	done
